@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "question": "Vous recevez un SMS : 'Chronopost : votre colis a rencontré une erreur de livraison. Veuillez confirmer vos infos ici : http://suivi-chrono-post.com'. Que faites-vous ?",
+    "options": [
+      "Je clique pour voir où est mon colis.",
+      "Je transfère le SMS au 33700 et je supprime.",
+      "Je réponds STOP au SMS.",
+      "Je rentre mes infos mais pas ma carte bancaire."
+    ],
+    "correctIndex": 1,
+    "explanation": "L'URL 'suivi-chrono-post.com' est frauduleuse (ce n'est pas le site officiel). Le réflexe est de signaler au 33700 et de ne jamais cliquer.",
+    "category": "livraison",
+    "difficulty": "facile"
+  },
+  {
+    "id": 2,
+    "question": "Votre conseiller bancaire vous appelle. Le numéro affiché est bien celui de votre agence. Il vous demande de valider une notification sur votre appli pour annuler une opération frauduleuse. Que faites-vous ?",
+    "options": [
+      "Je valide immédiatement, c'est urgent.",
+      "Je demande son nom et je valide.",
+      "Je raccroche et je rappelle mon agence moi-même.",
+      "Je lui donne mon mot de passe pour qu'il le fasse lui-même."
+    ],
+    "correctIndex": 2,
+    "explanation": "C'est la technique du 'Spoofing'. Les escrocs peuvent afficher le vrai numéro de la banque. Un vrai conseiller ne vous demandera JAMAIS de valider une opération pour en 'annuler' une autre.",
+    "category": "banque",
+    "difficulty": "difficile"
+  },
+  {
+    "id": 3,
+    "question": "Vous recevez un message WhatsApp : 'Coucou maman, mon téléphone est cassé, c'est mon nouveau numéro temporaire. Enregistre-le !'.",
+    "options": [
+      "J'enregistre le numéro et je demande ce qui s'est passé.",
+      "J'appelle immédiatement l'ANCIEN numéro de mon enfant pour vérifier.",
+      "J'envoie de l'argent pour le dépanner.",
+      "Je lui demande une photo de son nouveau téléphone."
+    ],
+    "correctIndex": 1,
+    "explanation": "C'est l'arnaque classique 'Coucou maman/papa'. L'escroc va ensuite demander de l'argent. Appelez toujours l'ancien numéro pour lever le doute.",
+    "category": "famille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 4,
+    "question": "Un site d'achat affiche un cadenas (https) à côté de l'adresse web. Cela signifie-t-il que le site est 100% fiable ?",
+    "options": [
+      "Vrai, le cadenas garantit la sécurité totale.",
+      "Faux, cela signifie juste que la communication est chiffrée, mais le site peut être une arnaque.",
+      "Vrai, car Google vérifie tous les sites https.",
+      "Faux, le cadenas n'existe plus sur les navigateurs modernes."
+    ],
+    "correctIndex": 1,
+    "explanation": "Le HTTPS sécurise le transport des données, pas l'honnêteté du vendeur. Un site de phishing peut très bien être en HTTPS.",
+    "category": "general",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 5,
+    "question": "Vous recevez un mail de l'Assurance Maladie (Ameli) : 'Remboursement en attente de 34,90€. Cliquez ici pour le réclamer'.",
+    "options": [
+      "Je clique, c'est sûrement une consultation oubliée.",
+      "Je regarde l'adresse de l'expéditeur.",
+      "Je me connecte sur mon compte Ameli via l'application officielle sans cliquer sur le lien.",
+      "Je réponds au mail pour demander des détails."
+    ],
+    "correctIndex": 2,
+    "explanation": "La règle d'or : ne jamais cliquer sur un lien de remboursement. Allez toujours vérifier l'information sur le site ou l'application officielle.",
+    "category": "admin",
+    "difficulty": "facile"
+  },
+  {
+    "id": 6,
+    "question": "Une offre d'emploi sur Telegram propose : 'Gagnez 200€/jour en likant des vidéos YouTube. Aucun diplôme requis'.",
+    "options": [
+      "C'est une opportunité à saisir.",
+      "Je postule mais je ne donne pas mon RIB.",
+      "C'est une arnaque pyramidale ou de tâche, je bloque.",
+      "Je demande un contrat de travail avant de commencer."
+    ],
+    "correctIndex": 2,
+    "explanation": "L'argent facile n'existe pas. Ces arnaques aux 'tâches' (task scam) finissent par vous demander de payer pour débloquer vos gains.",
+    "category": "emploi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 7,
+    "question": "Vous vendez un objet sur Leboncoin. L'acheteur veut vous payer via PayPal et vous envoie un lien pour 'récupérer les fonds'.",
+    "options": [
+      "Je clique sur le lien et je rentre mes identifiants.",
+      "Je refuse, je me connecte directement sur mon appli PayPal pour voir si l'argent est là.",
+      "Je lui donne mon numéro de carte bancaire à la place.",
+      "J'appelle PayPal avec le numéro dans le mail."
+    ],
+    "correctIndex": 1,
+    "explanation": "Un acheteur n'a besoin que de votre adresse email pour vous payer sur PayPal. S'il envoie un lien, c'est du phishing.",
+    "category": "general",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 8,
+    "question": "Un livreur sonne pour un colis que vous n'attendez pas. Il demande un 'code de confirmation' reçu par SMS pour vous le remettre.",
+    "options": [
+      "Je lui donne le code, je suis curieux.",
+      "Je ne donne rien. Ce code sert probablement à valider un achat ou un accès à mon insu.",
+      "Je prends le colis et je donne le code après.",
+      "Je lui demande d'ouvrir le colis devant moi."
+    ],
+    "correctIndex": 1,
+    "explanation": "C'est une arnaque courante. L'escroc a lancé une procédure (achat, récupération de mot de passe) qui nécessite un code envoyé sur votre mobile. Si vous le donnez, vous validez l'arnaque.",
+    "category": "livraison",
+    "difficulty": "difficile"
+  },
+  {
+    "id": 9,
+    "question": "Vous recevez un SMS pour une amende impayée (ANTAI) avec un lien : 'dossier-antai-gouv.info'.",
+    "options": [
+      "Je paie vite pour éviter la majoration.",
+      "C'est une arnaque, l'extension n'est pas '.gouv.fr'.",
+      "Je transfère à mon avocat.",
+      "Je conteste sur le site en lien."
+    ],
+    "correctIndex": 1,
+    "explanation": "Les sites officiels de l'administration française finissent TOUJOURS par '.gouv.fr'. Toute autre extension (.info, .org, .com) pour une amende est une arnaque.",
+    "category": "admin",
+    "difficulty": "facile"
+  },
+  {
+    "id": 10,
+    "question": "Un ami vous contacte sur Messenger : 'J'ai bloqué mon téléphone, peux-tu recevoir un code pour moi et me le renvoyer ?'.",
+    "options": [
+      "Je lui rends ce service, c'est mon ami.",
+      "Je lui demande de m'appeler pour vérifier son identité.",
+      "Je lui envoie le code reçu par SMS.",
+      "Je lui demande son adresse mail."
+    ],
+    "correctIndex": 1,
+    "explanation": "Son compte a été piraté. L'escroc essaie d'utiliser votre numéro pour pirater le vôtre ou valider un paiement. Vérifiez toujours hors de la plateforme.",
+    "category": "famille",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 11,
+    "question": "Quel est le signe le plus évident d'un email de phishing ?",
+    "options": [
+      "Il contient des images.",
+      "Il crée un sentiment d'urgence (compte bloqué, expiration dans 24h).",
+      "Il est envoyé le week-end.",
+      "Il est écrit en noir."
+    ],
+    "correctIndex": 1,
+    "explanation": "L'urgence est le levier psychologique n°1 des escrocs pour vous faire perdre votre esprit critique.",
+    "category": "general",
+    "difficulty": "facile"
+  },
+  {
+    "id": 12,
+    "question": "On vous propose d'investir dans les cryptomonnaies avec un rendement garanti de 15% par semaine.",
+    "options": [
+      "Je fonce, le livret A ne rapporte rien.",
+      "Je mets une petite somme pour tester.",
+      "Je fuis. Un rendement élevé garanti = arnaque à 100%.",
+      "Je demande l'avis de mon banquier."
+    ],
+    "correctIndex": 2,
+    "explanation": "En finance, le rendement 'garanti' élevé n'existe pas. C'est typique des arnaques au faux livret ou fausse crypto.",
+    "category": "emploi",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 13,
+    "question": "Des faux démarcheurs marquent des symboles à la craie devant les maisons. Est-ce un mythe ou une réalité ?",
+    "options": [
+      "C'est toujours vrai, il faut appeler la police.",
+      "C'est une légende urbaine ancienne, mais les repérages existent (scotch sur la serrure, caillou devant le portail).",
+      "Les cambrioleurs utilisent uniquement Google Maps.",
+      "Ça signifie que le chien est méchant."
+    ],
+    "correctIndex": 1,
+    "explanation": "Les symboles à la craie sont souvent une légende urbaine (\"Code des cambrioleurs\"), mais les techniques de repérage physiques (objet qui ne bouge pas pendant 24h pour tester la présence) sont bien réelles.",
+    "category": "general",
+    "difficulty": "difficile"
+  },
+  {
+    "id": 14,
+    "question": "Votre compte CPF arrive soi-disant à expiration et vous devez utiliser vos droits maintenant.",
+    "options": [
+      "Vrai, les droits CPF périment chaque année.",
+      "Faux, les droits CPF ne périment jamais tant que vous n'êtes pas à la retraite.",
+      "Vrai, mais seulement si je change d'entreprise.",
+      "Faux, ils sont convertis en euros tous les 5 ans."
+    ],
+    "correctIndex": 1,
+    "explanation": "C'est l'argument phare des arnaqueurs CPF. Vos droits sont acquis et ne disparaissent pas dans l'urgence.",
+    "category": "admin",
+    "difficulty": "facile"
+  },
+  {
+    "id": 15,
+    "question": "Vous recevez un mail de Netflix : 'Paiement refusé, mettez à jour votre abonnement'. L'adresse d'envoi est 'support@netflix-verify.net'.",
+    "options": [
+      "C'est légitime, l'adresse contient 'netflix'.",
+      "C'est une arnaque, l'adresse officielle doit finir par 'netflix.com'.",
+      "Je clique sur le lien pour ne pas perdre mes séries.",
+      "Je réponds en donnant mon numéro de carte."
+    ],
+    "correctIndex": 1,
+    "explanation": "Regardez toujours ce qu'il y a juste avant le dernier point. Ici c'est 'netflix-verify.net', ce n'est pas Netflix.",
+    "category": "phishing",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 16,
+    "question": "Un 'conseiller' vous demande d'installer l'application 'AnyDesk' ou 'TeamViewer' pour vous aider à résoudre un problème sur votre ordinateur.",
+    "options": [
+      "J'installe, c'est gentil de sa part.",
+      "Je refuse catégoriquement et je raccroche.",
+      "J'installe seulement si c'est gratuit.",
+      "Je demande son numéro d'employé."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ce sont des logiciels de prise de contrôle à distance. Si vous l'installez, l'escroc a accès total à votre ordinateur et vos comptes bancaires.",
+    "category": "general",
+    "difficulty": "difficile"
+  },
+  {
+    "id": 17,
+    "question": "Vous trouvez une clé USB sur le parking de votre entreprise.",
+    "options": [
+      "Je la branche sur mon PC pro pour trouver le propriétaire.",
+      "Je la branche sur mon PC perso par sécurité.",
+      "Je la donne au service informatique sans la brancher.",
+      "Je la jette à la poubelle."
+    ],
+    "correctIndex": 2,
+    "explanation": "Une clé USB peut contenir un virus qui s'exécute dès le branchement. Ne jamais brancher une clé inconnue.",
+    "category": "general",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 18,
+    "question": "Sur Vinted, un acheteur vous demande votre numéro de téléphone et votre email pour 'sécuriser le paiement'.",
+    "options": [
+      "Je donne les infos, c'est normal.",
+      "Je refuse, tout doit se passer dans la messagerie Vinted.",
+      "Je lui envoie une photo de ma carte d'identité.",
+      "Je lui propose de passer par WhatsApp."
+    ],
+    "correctIndex": 1,
+    "explanation": "Sortir de la plateforme est le premier pas vers l'arnaque. Vinted n'a pas besoin de votre numéro pour un paiement sécurisé.",
+    "category": "livraison",
+    "difficulty": "facile"
+  },
+  {
+    "id": 19,
+    "question": "Quel est le meilleur moyen de se protéger du piratage de compte (mail, réseaux sociaux) ?",
+    "options": [
+      "Changer de mot de passe tous les mois.",
+      "Activer la double authentification (2FA/MFA).",
+      "Avoir un mot de passe de 8 caractères.",
+      "Ne jamais se déconnecter."
+    ],
+    "correctIndex": 1,
+    "explanation": "La double authentification est la barrière la plus efficace. Même si on vole votre mot de passe, on ne peut pas entrer sans le deuxième code.",
+    "category": "general",
+    "difficulty": "moyen"
+  },
+  {
+    "id": 20,
+    "question": "Vous recevez un avis de passage de La Poste dans votre boîte aux lettres, mais il n'y a pas de numéro de suivi, juste un numéro de portable à rappeler.",
+    "options": [
+      "Je rappelle le numéro pour fixer un rendez-vous.",
+      "J'envoie un SMS pour savoir qui c'est.",
+      "Je me méfie, un avis officiel comporte un numéro de suivi et pas de 06/07 personnel.",
+      "J'attends le lendemain."
+    ],
+    "correctIndex": 2,
+    "explanation": "Les faux avis de passage sont utilisés par les cambrioleurs pour vérifier votre présence ou par des escrocs pour vous faire appeler un numéro surtaxé.",
+    "category": "livraison",
+    "difficulty": "difficile"
+  }
+]
