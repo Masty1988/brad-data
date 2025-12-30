@@ -278,9 +278,7 @@
     "explanation": "Les faux avis de passage sont utilisés par les cambrioleurs pour vérifier votre présence ou par des escrocs pour vous faire appeler un numéro surtaxé.",
     "category": "livraison",
     "difficulty": "difficile"
-  }
-]
-[
+  },
   {
     "id": 21,
     "text": "INFO-ANTAI: Vous avez un retard de paiement de 35€ sur votre dossier n°49201. Consultez votre dossier : https://dossier-antai-info.com",
