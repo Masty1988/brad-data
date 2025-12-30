@@ -280,3 +280,165 @@
     "difficulty": "difficile"
   }
 ]
+[
+  {
+    "id": 21,
+    "text": "INFO-ANTAI: Vous avez un retard de paiement de 35€ sur votre dossier n°49201. Consultez votre dossier : https://dossier-antai-info.com",
+    "sender": "06 12 45 78 90",
+    "isScam": true,
+    "category": "admin",
+    "explanation": "L'ANTAI n'envoie jamais de SMS avec un lien de paiement direct, surtout depuis un 06/07. Le site officiel finit toujours par .gouv.fr."
+  },
+  {
+    "id": 22,
+    "text": "Coucou maman, mon téléphone est cassé. C'est mon numéro provisoire. Envoie-moi un message sur WhatsApp au 0756894123, c'est urgent.",
+    "sender": "07 56 89 41 23",
+    "isScam": true,
+    "category": "famille",
+    "explanation": "C'est l'arnaque 'Coucou maman'. L'escroc va ensuite prétexter une urgence financière. Appellez toujours votre enfant sur son ancien numéro pour vérifier."
+  },
+  {
+    "id": 23,
+    "text": "Votre code de sécurité pour valider votre paiement de 49.00 EUR est : 88291. Ne communiquez ce code à personne.",
+    "sender": "MaBanque",
+    "isScam": false,
+    "category": "banque",
+    "explanation": "Ceci est un message de double authentification standard. Il ne contient pas de lien cliquable et vous met en garde."
+  },
+  {
+    "id": 24,
+    "text": "Bonjour, nous avons reçu votre CV. Notre département RH a une opportunité de travail à domicile pour vous. Salaire 200-500€/jour. Contactez : wa.me/message-rh",
+    "sender": "+33 7 00 11 22 33",
+    "isScam": true,
+    "category": "emploi",
+    "explanation": "Aucun recruteur sérieux ne démarche par SMS pour des salaires mirobolants via un lien WhatsApp. C'est une arnaque pyramidale ou au 'task scam'."
+  },
+  {
+    "id": 25,
+    "text": "NETFLIX: Votre dernier paiement a été refusé. Pour éviter la suspension de votre compte, mettez à jour vos infos : http://net-flix-abos.com",
+    "sender": "NETFLIX",
+    "isScam": true,
+    "category": "general",
+    "explanation": "Regardez l'URL : 'net-flix-abos.com'. Ce n'est pas le site officiel. Connectez-vous toujours via l'application officielle pour vérifier."
+  },
+  {
+    "id": 26,
+    "text": "Votre vignette Crit'Air n'est plus à jour. Commandez la nouvelle sous 24h pour éviter une contravention via : https://mon-certificat-air.fr",
+    "sender": "06 99 88 77 66",
+    "isScam": true,
+    "category": "admin",
+    "explanation": "Le site officiel est certificat-air.gouv.fr. Les arnaques à la vignette Crit'Air sont très fréquentes et utilisent la peur de l'amende."
+  },
+  {
+    "id": 27,
+    "text": "Chronopost : Votre colis est disponible au point de retrait. Code de retrait : 8842. Pensez à votre pièce d'identité.",
+    "sender": "Chronopost",
+    "isScam": false,
+    "category": "livraison",
+    "explanation": "Message informatif, sans lien suspect, avec un code de retrait cohérent. C'est un avis de mise à disposition classique."
+  },
+  {
+    "id": 28,
+    "text": "Dernier rappel avant majoration : Veuillez régler votre stationnement impayé via ce lien sécurisé : https://amendes-gouv-reglements.fr",
+    "sender": "07 44 55 66 77",
+    "isScam": true,
+    "category": "admin",
+    "explanation": "Encore une fois, un numéro mobile (07) pour une administration et une URL qui imite le site officiel mais n'est pas en .gouv.fr."
+  },
+  {
+    "id": 29,
+    "text": "AMELI : Un remboursement de 34,90€ est en attente. Veuillez confirmer vos coordonnées bancaires : http://remb-ameli-secu.com",
+    "sender": "Assurance",
+    "isScam": true,
+    "category": "admin",
+    "explanation": "L'Assurance Maladie ne demande jamais de coordonnées bancaires par SMS pour un remboursement. Tout se fait sur votre compte Ameli."
+  },
+  {
+    "id": 30,
+    "text": "Salut c'est Thomas. On se voit toujours demain 19h pour le ciné ? Dis moi si c'est bon.",
+    "sender": "06 11 22 33 44",
+    "isScam": false,
+    "category": "famille",
+    "explanation": "Message personnel classique, contexte clair, pas de demande d'argent ni de lien."
+  },
+  {
+    "id": 31,
+    "text": "Alerte Sécurité : Une connexion suspecte à votre compte a eu lieu depuis Lyon. Si ce n'est pas vous, cliquez ici : https://verification-banque-enligne.com",
+    "sender": "InfoSecu",
+    "isScam": true,
+    "category": "banque",
+    "explanation": "La banque ne vous envoie jamais de lien pour annuler une opération. Elle vous demande de vous connecter à votre espace client ou de faire opposition."
+  },
+  {
+    "id": 32,
+    "text": "Votre commande Amazon #402-991 a été expédiée et arrivera mardi.",
+    "sender": "Amazon",
+    "isScam": false,
+    "category": "livraison",
+    "explanation": "Message de suivi standard sans incitation à cliquer sur un lien douteux pour payer des frais."
+  },
+  {
+    "id": 33,
+    "text": "Bravo ! Vous avez été tiré au sort pour gagner un iPhone 15. Réclamez votre lot ici (frais de port 2€) : http://cadeau-gagnant-express.fr",
+    "sender": "06 55 88 99 00",
+    "isScam": true,
+    "category": "phishing",
+    "explanation": "C'est trop beau pour être vrai. Si vous devez payer (même 2€) pour un cadeau, c'est une arnaque pour voler vos coordonnées bancaires."
+  },
+  {
+    "id": 34,
+    "text": "Doctolib : Rappel de votre RDV demain à 14h30 avec Dr MARTIN. Pour annuler, cliquez sur le lien dans l'email de confirmation ou l'app.",
+    "sender": "Doctolib",
+    "isScam": false,
+    "category": "admin",
+    "explanation": "Message informatif d'une plateforme connue. Il renvoie vers l'application officielle et ne demande pas de paiement."
+  },
+  {
+    "id": 35,
+    "text": "Urgent : Votre carte SIM va expirer ce soir. Commandez votre e-SIM immédiatement pour ne pas perdre votre numéro : https://operateur-support-esim.com",
+    "sender": "Operateur",
+    "isScam": true,
+    "category": "general",
+    "explanation": "Une carte SIM n'expire pas du jour au lendemain. Les escrocs tentent de récupérer votre numéro (SIM Swapping) pour valider des paiements à votre place."
+  },
+  {
+    "id": 36,
+    "text": "Douane : Votre colis international est bloqué. TVA de 2.95 EUR à régler pour libération : https://douane-taxes-colis.net",
+    "sender": "07 88 55 22 11",
+    "isScam": true,
+    "category": "livraison",
+    "explanation": "Les frais de douane se règlent généralement à la livraison ou via le site officiel du transporteur (La Poste, DHL), jamais via un site tiers obscur envoyé par un 07."
+  },
+  {
+    "id": 37,
+    "text": "CPF : Vos droits à la formation (1200€) arrivent à échéance. Convertissez-les avant suppression : https://mon-compte-droit-formation.com",
+    "sender": "DossierCPF",
+    "isScam": true,
+    "category": "admin",
+    "explanation": "Les droits CPF n'expirent jamais ! C'est une arnaque très courante pour vider votre compte formation."
+  },
+  {
+    "id": 38,
+    "text": "Orange : Votre facture de 29,99€ est disponible dans votre Espace Client. Le prélèvement aura lieu le 05/02.",
+    "sender": "Orange",
+    "isScam": false,
+    "category": "general",
+    "explanation": "Information factuelle, montant cohérent, renvoi vers l'Espace Client sans fournir de lien direct piégé."
+  },
+  {
+    "id": 39,
+    "text": "Votre conseiller bancaire a tenté de vous joindre. Merci de rappeler le 01 XX XX XX XX aux horaires d'ouverture.",
+    "sender": "MaBanque",
+    "isScam": false,
+    "category": "banque",
+    "explanation": "Un message demandant de rappeler un numéro fixe (géographique) aux horaires de bureau est généralement légitime."
+  },
+  {
+    "id": 40,
+    "text": "C'est le service technique. Votre ordinateur est infecté. Cliquez ici pour nettoyer les virus : http://anti-virus-cleaner.com",
+    "sender": "06 22 33 44 55",
+    "isScam": true,
+    "category": "phishing",
+    "explanation": "Le 'Support Technique' ne vous contacte jamais par SMS pour un virus. C'est une tentative pour installer un vrai logiciel malveillant."
+  }
+]
